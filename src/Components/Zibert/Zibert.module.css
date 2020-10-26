@@ -1,0 +1,61 @@
+.wrapperZibert {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productBlock {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 216px;
+}
+
+.logoImg {
+    width: 100%;
+}
+
+.bottles {
+    display: flex;
+    position: relative;
+    margin: 40px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 320px;
+    width: 90%;
+}
+
+.bottle {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 200px; */
+    width: 80px;
+    transition: ease-in-out 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.bottle :hover {
+    /* height: 320px; */
+    width: 100px;
+}
+
+.text {
+    text-align: center;
+    color: #31582b;
+    margin: 0px;
+}
+
+.img {
+    width: 90%;
+}
+
+.can {
+    align-items: flex-end;
+}

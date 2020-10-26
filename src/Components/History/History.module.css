@@ -1,0 +1,17 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    background: rgb(39,71,34);
+background: linear-gradient(86deg, rgba(39,71,34,1) 49%, rgba(74,153,62,1) 84%, rgba(48,86,42,1) 99%);
+}
+
+.block {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    justify-content: space-around;
+}

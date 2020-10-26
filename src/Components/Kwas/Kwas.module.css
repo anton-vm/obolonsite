@@ -1,0 +1,28 @@
+.img {
+    width: 100%;
+}
+
+.text {
+    color: #916101;
+    text-align: center;
+    width: 90%;
+    margin: 0 15px;
+}
+
+.title {
+    display: flex;
+    /* margin: 0px auto; */
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 40px;
+    color: #916101;
+    text-align: center;
+}
+
+.imgLogo {
+    width: 60%;
+}
+
+.kwasTitle {
+    margin: 0 auto;
+}

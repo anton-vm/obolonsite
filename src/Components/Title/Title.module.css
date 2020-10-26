@@ -1,0 +1,41 @@
+.block {
+    /* display: block; */
+
+    justify-content: center;
+    position: relative;
+    height: 568px;
+    background-color: #31582b;
+}
+
+.bgdImage {
+    display: flex;
+    content: none;
+    height: 100%;
+    background-image: url(../../img/elements/kyiv.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+.logo {
+    margin: 102px auto 0;
+    z-index: 2;
+}
+
+.slogan {
+    display: block;
+    position: absolute;
+    width: 70%;
+    margin: 260px 15px 50px;
+    left: 15px;
+    bottom: 50px;
+    color: white;
+    z-index: 4;
+}
+
+.beerBottle {
+    /* display: block; */
+    position: absolute;
+    bottom: -5px;
+    right: -30px;
+    z-index: 1;
+}
