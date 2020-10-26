@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/obolonsite/static/css/main.9ab976ac.chunk.css",
+    "main.js": "/obolonsite/static/js/main.00a060a6.chunk.js",
+    "main.js.map": "/obolonsite/static/js/main.00a060a6.chunk.js.map",
+    "runtime-main.js": "/obolonsite/static/js/runtime-main.825100b8.js",
+    "runtime-main.js.map": "/obolonsite/static/js/runtime-main.825100b8.js.map",
+    "static/js/2.2a94769f.chunk.js": "/obolonsite/static/js/2.2a94769f.chunk.js",
+    "static/js/2.2a94769f.chunk.js.map": "/obolonsite/static/js/2.2a94769f.chunk.js.map",
+    "index.html": "/obolonsite/index.html",
+    "precache-manifest.751a600096c4debe4ebac6c2d47b68c8.js": "/obolonsite/precache-manifest.751a600096c4debe4ebac6c2d47b68c8.js",
+    "service-worker.js": "/obolonsite/service-worker.js",
+    "static/css/main.9ab976ac.chunk.css.map": "/obolonsite/static/css/main.9ab976ac.chunk.css.map",
+    "static/js/2.2a94769f.chunk.js.LICENSE.txt": "/obolonsite/static/js/2.2a94769f.chunk.js.LICENSE.txt",
+    "static/media/Zhyguli-logo.png": "/obolonsite/static/media/Zhyguli-logo.f077f143.png",
+    "static/media/beer-bottle.png": "/obolonsite/static/media/beer-bottle.09352e0b.png",
+    "static/media/beer-hike.png": "/obolonsite/static/media/beer-hike.9ec3ae1c.png",
+    "static/media/beer_hike_blue.png": "/obolonsite/static/media/beer_hike_blue.05874928.png",
+    "static/media/beer_magnat.png": "/obolonsite/static/media/beer_magnat.4623b369.png",
+    "static/media/beer_obolon_premium.png": "/obolonsite/static/media/beer_obolon_premium.311f3ed3.png",
+    "static/media/beer_obolon_svitle.png": "/obolonsite/static/media/beer_obolon_svitle.22e87f47.png",
+    "static/media/beer_range.png": "/obolonsite/static/media/beer_range.dd77110e.png",
+    "static/media/beer_zhygulivske.png": "/obolonsite/static/media/beer_zhygulivske.910170a2.png",
+    "static/media/beer_zibert.png": "/obolonsite/static/media/beer_zibert.70dec872.png",
+    "static/media/beer_zibert_can.png": "/obolonsite/static/media/beer_zibert_can.c1d4d853.png",
+    "static/media/factory.png": "/obolonsite/static/media/factory.9518d44a.png",
+    "static/media/kwas_chlebowy.png": "/obolonsite/static/media/kwas_chlebowy.84da95b4.png",
+    "static/media/kwas_podpiwek.png": "/obolonsite/static/media/kwas_podpiwek.7f14d979.png",
+    "static/media/kwas_sliwa.png": "/obolonsite/static/media/kwas_sliwa.afceb099.png",
+    "static/media/kwas_wisznia.png": "/obolonsite/static/media/kwas_wisznia.02f71899.png",
+    "static/media/Title.module.css": "/obolonsite/static/media/kyiv.b0f83db3.png",
+    "static/media/logo.svg": "/obolonsite/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.825100b8.js",
+    "static/js/2.2a94769f.chunk.js",
+    "static/css/main.9ab976ac.chunk.css",
+    "static/js/main.00a060a6.chunk.js"
+  ]
+}
