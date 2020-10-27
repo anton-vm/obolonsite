@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b12bf52a1666fc39e96bbd18a77fae9",
+    "revision": "4c2f7cf980a95018f5629ae87f54e191",
     "url": "/obolonsite/index.html"
   },
   {
-    "revision": "db5dbf72b2275e684459",
-    "url": "/obolonsite/static/css/main.68e34c21.chunk.css"
+    "revision": "1741bed783cd5c68b8ff",
+    "url": "/obolonsite/static/css/main.ef4944ca.chunk.css"
   },
   {
-    "revision": "e0858a52d664dcd2d388",
-    "url": "/obolonsite/static/js/2.6ae609bb.chunk.js"
+    "revision": "e051e0a32108431c9db5",
+    "url": "/obolonsite/static/js/2.d7279e07.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/obolonsite/static/js/2.6ae609bb.chunk.js.LICENSE.txt"
+    "revision": "0aafbc1a5531a8e877e9c9d001f77b1c",
+    "url": "/obolonsite/static/js/2.d7279e07.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db5dbf72b2275e684459",
-    "url": "/obolonsite/static/js/main.74624f27.chunk.js"
+    "revision": "1741bed783cd5c68b8ff",
+    "url": "/obolonsite/static/js/main.aaa76a49.chunk.js"
   },
   {
     "revision": "62898fedac0d2a1f57ae",
@@ -104,7 +104,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/obolonsite/static/media/kyiv.b0f83db3.png"
   },
   {
+    "revision": "949f99ab6cfef93eeadf78062ca604f2",
+    "url": "/obolonsite/static/media/listOfProducts.949f99ab.xlsx"
+  },
+  {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/obolonsite/static/media/logo.5d5d9eef.svg"
+  },
+  {
+    "revision": "e38bbe4f38a1906b87a4fa88e8e26ff1",
+    "url": "/obolonsite/static/media/~$listOfProducts.e38bbe4f.xlsx"
   }
 ]);

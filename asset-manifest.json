@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/obolonsite/static/css/main.68e34c21.chunk.css",
-    "main.js": "/obolonsite/static/js/main.74624f27.chunk.js",
-    "main.js.map": "/obolonsite/static/js/main.74624f27.chunk.js.map",
+    "main.css": "/obolonsite/static/css/main.ef4944ca.chunk.css",
+    "main.js": "/obolonsite/static/js/main.aaa76a49.chunk.js",
+    "main.js.map": "/obolonsite/static/js/main.aaa76a49.chunk.js.map",
     "runtime-main.js": "/obolonsite/static/js/runtime-main.825100b8.js",
     "runtime-main.js.map": "/obolonsite/static/js/runtime-main.825100b8.js.map",
-    "static/js/2.6ae609bb.chunk.js": "/obolonsite/static/js/2.6ae609bb.chunk.js",
-    "static/js/2.6ae609bb.chunk.js.map": "/obolonsite/static/js/2.6ae609bb.chunk.js.map",
+    "static/js/2.d7279e07.chunk.js": "/obolonsite/static/js/2.d7279e07.chunk.js",
+    "static/js/2.d7279e07.chunk.js.map": "/obolonsite/static/js/2.d7279e07.chunk.js.map",
     "index.html": "/obolonsite/index.html",
-    "precache-manifest.fc4fb2fd82c42ab5d576af6f9da3c0a5.js": "/obolonsite/precache-manifest.fc4fb2fd82c42ab5d576af6f9da3c0a5.js",
+    "precache-manifest.1b85741765ed8e4704d4409b21dfa19b.js": "/obolonsite/precache-manifest.1b85741765ed8e4704d4409b21dfa19b.js",
     "service-worker.js": "/obolonsite/service-worker.js",
-    "static/css/main.68e34c21.chunk.css.map": "/obolonsite/static/css/main.68e34c21.chunk.css.map",
-    "static/js/2.6ae609bb.chunk.js.LICENSE.txt": "/obolonsite/static/js/2.6ae609bb.chunk.js.LICENSE.txt",
+    "static/css/main.ef4944ca.chunk.css.map": "/obolonsite/static/css/main.ef4944ca.chunk.css.map",
+    "static/js/2.d7279e07.chunk.js.LICENSE.txt": "/obolonsite/static/js/2.d7279e07.chunk.js.LICENSE.txt",
     "static/media/Zhyguli-logo.png": "/obolonsite/static/media/Zhyguli-logo.f077f143.png",
     "static/media/beer-bottle.png": "/obolonsite/static/media/beer-bottle.09352e0b.png",
     "static/media/beer-hike.png": "/obolonsite/static/media/beer-hike.9ec3ae1c.png",
@@ -31,13 +31,15 @@
     "static/media/kwas_podpiwek.png": "/obolonsite/static/media/kwas_podpiwek.7f14d979.png",
     "static/media/kwas_sliwa.png": "/obolonsite/static/media/kwas_sliwa.afceb099.png",
     "static/media/kwas_wisznia.png": "/obolonsite/static/media/kwas_wisznia.02f71899.png",
-    "static/media/Title.module.css": "/obolonsite/static/media/kyiv.b0f83db3.png",
-    "static/media/logo.svg": "/obolonsite/static/media/logo.5d5d9eef.svg"
+    "static/media/kyiv.png": "/obolonsite/static/media/kyiv.b0f83db3.png",
+    "static/media/listOfProducts.xlsx": "/obolonsite/static/media/listOfProducts.949f99ab.xlsx",
+    "static/media/logo.svg": "/obolonsite/static/media/logo.5d5d9eef.svg",
+    "static/media/~$listOfProducts.xlsx": "/obolonsite/static/media/~$listOfProducts.e38bbe4f.xlsx"
   },
   "entrypoints": [
     "static/js/runtime-main.825100b8.js",
-    "static/js/2.6ae609bb.chunk.js",
-    "static/css/main.68e34c21.chunk.css",
-    "static/js/main.74624f27.chunk.js"
+    "static/js/2.d7279e07.chunk.js",
+    "static/css/main.ef4944ca.chunk.css",
+    "static/js/main.aaa76a49.chunk.js"
   ]
 }
