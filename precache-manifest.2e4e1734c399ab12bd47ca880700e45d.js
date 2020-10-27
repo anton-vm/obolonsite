@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c2f7cf980a95018f5629ae87f54e191",
+    "revision": "7512b44b1b0e37ecb5aa3b66bfc57fc1",
     "url": "/obolonsite/index.html"
   },
   {
-    "revision": "1741bed783cd5c68b8ff",
-    "url": "/obolonsite/static/css/main.ef4944ca.chunk.css"
+    "revision": "c24692db87d312e1348f",
+    "url": "/obolonsite/static/css/main.e1a78fca.chunk.css"
   },
   {
-    "revision": "e051e0a32108431c9db5",
-    "url": "/obolonsite/static/js/2.d7279e07.chunk.js"
+    "revision": "6de60ac7c4da024d3ef7",
+    "url": "/obolonsite/static/js/2.c3d9e17c.chunk.js"
   },
   {
     "revision": "0aafbc1a5531a8e877e9c9d001f77b1c",
-    "url": "/obolonsite/static/js/2.d7279e07.chunk.js.LICENSE.txt"
+    "url": "/obolonsite/static/js/2.c3d9e17c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1741bed783cd5c68b8ff",
-    "url": "/obolonsite/static/js/main.aaa76a49.chunk.js"
+    "revision": "c24692db87d312e1348f",
+    "url": "/obolonsite/static/js/main.bc9ff865.chunk.js"
   },
   {
     "revision": "62898fedac0d2a1f57ae",
     "url": "/obolonsite/static/js/runtime-main.825100b8.js"
+  },
+  {
+    "revision": "4267d8aa8711bb8c72cbefb26066c9e0",
+    "url": "/obolonsite/static/media/BOOKOS.4267d8aa.TTF"
   },
   {
     "revision": "f077f143e0f40a5e2637431f68592570",
@@ -78,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c1d4d853a8b1129e3a70fcf5497cbbef",
     "url": "/obolonsite/static/media/beer_zibert_can.c1d4d853.png"
+  },
+  {
+    "revision": "02cf242d6279bf042e1d4783737a737a",
+    "url": "/obolonsite/static/media/bookmanoldstyle.02cf242d.zip"
   },
   {
     "revision": "9518d44a6e6653dafa3e7dad1618023c",
