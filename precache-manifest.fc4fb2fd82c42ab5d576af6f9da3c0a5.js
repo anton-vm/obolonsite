@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cacd85e1630f51d7badffee290145748",
+    "revision": "6b12bf52a1666fc39e96bbd18a77fae9",
     "url": "/obolonsite/index.html"
   },
   {
-    "revision": "7d90498bab7c165e5920",
-    "url": "/obolonsite/static/css/main.9ab976ac.chunk.css"
+    "revision": "db5dbf72b2275e684459",
+    "url": "/obolonsite/static/css/main.68e34c21.chunk.css"
   },
   {
-    "revision": "14be2a3cf7e044a34071",
-    "url": "/obolonsite/static/js/2.2a94769f.chunk.js"
+    "revision": "e0858a52d664dcd2d388",
+    "url": "/obolonsite/static/js/2.6ae609bb.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/obolonsite/static/js/2.2a94769f.chunk.js.LICENSE.txt"
+    "url": "/obolonsite/static/js/2.6ae609bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d90498bab7c165e5920",
-    "url": "/obolonsite/static/js/main.00a060a6.chunk.js"
+    "revision": "db5dbf72b2275e684459",
+    "url": "/obolonsite/static/js/main.74624f27.chunk.js"
   },
   {
     "revision": "62898fedac0d2a1f57ae",
@@ -50,6 +50,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "22e87f47ba6eef6cb079587bc798d903",
     "url": "/obolonsite/static/media/beer_obolon_svitle.22e87f47.png"
+  },
+  {
+    "revision": "23848551f541ef88c012f6b3061fbb94",
+    "url": "/obolonsite/static/media/beer_obolon_velvet.23848551.png"
+  },
+  {
+    "revision": "fed0a2564f334047d28f4db7512ab22b",
+    "url": "/obolonsite/static/media/beer_obolon_wheat.fed0a256.png"
+  },
+  {
+    "revision": "0cbec622bea6f76d415705618a8021ce",
+    "url": "/obolonsite/static/media/beer_obolon_white.0cbec622.png"
   },
   {
     "revision": "dd77110e5f662eda31e1ea010e6ba3c1",

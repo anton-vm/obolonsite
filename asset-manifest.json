@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/obolonsite/static/css/main.9ab976ac.chunk.css",
-    "main.js": "/obolonsite/static/js/main.00a060a6.chunk.js",
-    "main.js.map": "/obolonsite/static/js/main.00a060a6.chunk.js.map",
+    "main.css": "/obolonsite/static/css/main.68e34c21.chunk.css",
+    "main.js": "/obolonsite/static/js/main.74624f27.chunk.js",
+    "main.js.map": "/obolonsite/static/js/main.74624f27.chunk.js.map",
     "runtime-main.js": "/obolonsite/static/js/runtime-main.825100b8.js",
     "runtime-main.js.map": "/obolonsite/static/js/runtime-main.825100b8.js.map",
-    "static/js/2.2a94769f.chunk.js": "/obolonsite/static/js/2.2a94769f.chunk.js",
-    "static/js/2.2a94769f.chunk.js.map": "/obolonsite/static/js/2.2a94769f.chunk.js.map",
+    "static/js/2.6ae609bb.chunk.js": "/obolonsite/static/js/2.6ae609bb.chunk.js",
+    "static/js/2.6ae609bb.chunk.js.map": "/obolonsite/static/js/2.6ae609bb.chunk.js.map",
     "index.html": "/obolonsite/index.html",
-    "precache-manifest.751a600096c4debe4ebac6c2d47b68c8.js": "/obolonsite/precache-manifest.751a600096c4debe4ebac6c2d47b68c8.js",
+    "precache-manifest.fc4fb2fd82c42ab5d576af6f9da3c0a5.js": "/obolonsite/precache-manifest.fc4fb2fd82c42ab5d576af6f9da3c0a5.js",
     "service-worker.js": "/obolonsite/service-worker.js",
-    "static/css/main.9ab976ac.chunk.css.map": "/obolonsite/static/css/main.9ab976ac.chunk.css.map",
-    "static/js/2.2a94769f.chunk.js.LICENSE.txt": "/obolonsite/static/js/2.2a94769f.chunk.js.LICENSE.txt",
+    "static/css/main.68e34c21.chunk.css.map": "/obolonsite/static/css/main.68e34c21.chunk.css.map",
+    "static/js/2.6ae609bb.chunk.js.LICENSE.txt": "/obolonsite/static/js/2.6ae609bb.chunk.js.LICENSE.txt",
     "static/media/Zhyguli-logo.png": "/obolonsite/static/media/Zhyguli-logo.f077f143.png",
     "static/media/beer-bottle.png": "/obolonsite/static/media/beer-bottle.09352e0b.png",
     "static/media/beer-hike.png": "/obolonsite/static/media/beer-hike.9ec3ae1c.png",
@@ -19,6 +19,9 @@
     "static/media/beer_magnat.png": "/obolonsite/static/media/beer_magnat.4623b369.png",
     "static/media/beer_obolon_premium.png": "/obolonsite/static/media/beer_obolon_premium.311f3ed3.png",
     "static/media/beer_obolon_svitle.png": "/obolonsite/static/media/beer_obolon_svitle.22e87f47.png",
+    "static/media/beer_obolon_velvet.png": "/obolonsite/static/media/beer_obolon_velvet.23848551.png",
+    "static/media/beer_obolon_wheat.png": "/obolonsite/static/media/beer_obolon_wheat.fed0a256.png",
+    "static/media/beer_obolon_white.png": "/obolonsite/static/media/beer_obolon_white.0cbec622.png",
     "static/media/beer_range.png": "/obolonsite/static/media/beer_range.dd77110e.png",
     "static/media/beer_zhygulivske.png": "/obolonsite/static/media/beer_zhygulivske.910170a2.png",
     "static/media/beer_zibert.png": "/obolonsite/static/media/beer_zibert.70dec872.png",
@@ -33,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.825100b8.js",
-    "static/js/2.2a94769f.chunk.js",
-    "static/css/main.9ab976ac.chunk.css",
-    "static/js/main.00a060a6.chunk.js"
+    "static/js/2.6ae609bb.chunk.js",
+    "static/css/main.68e34c21.chunk.css",
+    "static/js/main.74624f27.chunk.js"
   ]
 }
