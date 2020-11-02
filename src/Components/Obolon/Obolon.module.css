@@ -7,7 +7,7 @@ background: linear-gradient(86deg, rgba(39,71,34,1) 49%, rgba(74,153,62,1) 84%, 
 }
 
 .bottles {
-    display: flex;
+    display: flex; 
     position: relative;
     margin: 40px 15px;
     display: flex;

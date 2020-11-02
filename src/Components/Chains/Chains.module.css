@@ -1,8 +1,39 @@
 .wrapChain {
     display: flex;
-    flex-direction: column;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    color: rgb(39,71,34);;
-    height: 250px;
-    border: 2px solid rgb(39,71,34);;
+}
+
+.title {
+    display: block;
+    width: 90%;
+    text-align: center;
+}
+.logoBlock {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto 40px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80px;
+    filter: grayscale(100%);
+}
+
+.logo:hover {
+    filter: grayscale(0%);
+}
+
+.logoImg {
+    width: 90%;
+    /* height: auto; */
 }

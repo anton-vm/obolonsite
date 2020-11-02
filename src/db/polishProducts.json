@@ -1,0 +1,157 @@
+ [
+        {
+            "index": "1",
+            "name": "Hike blance",
+            "name_polish": "Hike blanche",
+            "abv": "4.9",
+            "plato": "11.3",
+            "description": "«Hike Blanche» отличается тем, что имеет палитру характерных ингредиентов и ароматов, которые подчеркивают но не доминируют над вкусом пива. Напиток отличается приятным привкусом цитрусовых с хмелевой горчинкой, легкими нотками имбиря и меда с пряностями.",
+            "site_name": "hike_blanche",
+            "picture_path": "img/bottles/beer_hike_blue.png"
+        },
+        {
+            "index": "2",
+            "name": "Hike blance in can",
+            "name_polish": "Hike blanche w puszce",
+            "abv": "4.9",
+            "plato": "11.3",
+            "description": "«Hike Blanche» отличается тем, что имеет палитру характерных ингредиентов и ароматов, которые подчеркивают но не доминируют над вкусом пива. Напиток отличается приятным привкусом цитрусовых с хмелевой горчинкой, легкими нотками имбиря и меда с пряностями.",
+            "site_name": "hike_blance_can",
+            "picture_path": "img/bottles/beer_hike_blue_can.png"
+        },
+        {
+            "index": "3",
+            "name": "Obolon Magnat",
+            "name_polish": "Obolon Magnat",
+            "site_name": "obolon_magnat",
+            "picture_path": "img/bottles/beer_magnat.png"
+        },
+        {
+            "index": "4",
+            "name": "Obolon Premium",
+            "name_polish": "Obolon Premium",
+            "abv": "5",
+            "plato": "12",
+            "description": "«Оболонь Премиум» - это светлое пиво, которое обладает чрезвычайно мягким и насыщенным вкусом. Ароматный хмель в сочетании с особым ингредиентом - рисом, придает этому пиву неповторимый вкус и приятную горечь. Содержание сухих веществ в начальном сусле — 12.0%.",
+            "site_name": "obolon_premium",
+            "picture_path": "img/bottles/beer_obolon_premium.png"
+        },
+        {
+            "index": "5",
+            "name": "Obolon Svitle",
+            "name_polish": "Obolon Svitle",
+            "abv": "4.5",
+            "plato": "11",
+            "description": "«Оболонь Светлое» — это легкое светлое пиво с приятным солодовым вкусом и сдержанной горечью. Идеально подходит для всех категорий потребителей. Содержание сухих веществ в начальном сусле — 11,0%",
+            "site_name": "obolon_svitle",
+            "picture_path": "img/bottles/beer_obolon_svitle.png"
+        },
+        {
+            "index": "6",
+            "name": "Obolon Velvet",
+            "name_polish": "Obolon Aksamitowe",
+            "abv": "5.3",
+            "plato": "14",
+            "description": "«Оболонь Бархатное» - темное Пиво, которое обладает восхитительным сладковатым послевкусием. Сделано из грубого, дымного солода который придаёт пиву глубокий и нежно-сладкий аромат. Это десертное пиво, потому что хорошо пьется с пряностями. ",
+            "site_name": "obolon_velvet",
+            "picture_path": "img/bottles/beer_obolon_velvet.png"
+        },
+        {
+            "index": "7",
+            "name": "Obolon Wheat",
+            "name_polish": "Obolon Wheat",
+            "abv": "5",
+            "plato": "12.5",
+            "description": "Для приготовления «Оболонь Пшеничное» используется сочетание двух видов солода – традиционного ячменного и пшеничного. Такое комбинированное пивное сусло, позволяют получить мягкое пиво с легкой кислинкой и освежающими фруктовыми нотками. ",
+            "site_name": "obolon_wheat",
+            "picture_path": "img/bottles/beer_obolon_wheat.png"
+        },
+        {
+            "index": "8",
+            "name": "Obolon White",
+            "name_polish": "Obolon White",
+            "abv": "4.7",
+            "plato": "11.5",
+            "description": "Пиво «Оболонь Белое» – это легкое пиво с приятным солодовым вкусом и сдержанной, хорошо согласованной горечью. Хорошо подойдет к любимой пище. ",
+            "site_name": "obolon_white",
+            "picture_path": "img/bottles/beer_obolon_white.png"
+        },
+        {
+            "index": "9",
+            "name": "Zhygulivske",
+            "name_polish": "Zhygulivske",
+            "abv": "4.2",
+            "plato": "11",
+            "description": "Широко известное пиво советстких времен, рецепт которого возродили пивовары \"Оболони\". Идеально подходит для всех категорий потребителей. ",
+            "site_name": "zhygulivske",
+            "picture_path": "img/bottles/beer_zhygulivske.png"
+        },
+        {
+            "index": "10",
+            "name": "Zibert svitle",
+            "name_polish": "Zibert svitle",
+            "abv": "4.4",
+            "plato": "11",
+            "description": "Для приготовления пива ТМ «Zibert» используются только высококачественные составляющие. Солод собственного производства, который считается лучшим в Украине. Вода добывается из скважин Сеноманского горизонта и проходит качественную подготовку на современных немецких фильтрах.",
+            "site_name": "zibert_svitle",
+            "picture_path": "img/bottles/beer_zibert.png"
+        },
+        {
+            "index": "11",
+            "name": "Zibert svitle in can",
+            "name_polish": "Zibert svitle in can",
+            "abv": "4.4",
+            "plato": "11",
+            "description": "Для приготовления пива ТМ «Zibert» используются только высококачественные составляющие. Солод собственного производства, который считается лучшим в Украине. Вода добывается из скважин Сеноманского горизонта и проходит качественную подготовку на современных немецких фильтрах.",
+            "site_name": "zibert_svitle_can",
+            "picture_path": "img/bottles/beer_zibert_can.png"
+        },
+        {
+            "index": "12",
+            "name": "Hike premium",
+            "name_polish": "Hike premium",
+            "abv": "4.8",
+            "plato": "12.5",
+            "description": "Особенности вкуса «Hike Premium» предоставляет использование двух типов солода: ячменного светлого и пшеничной светлого, которые идеально сбалансированы между собой. Именно благодаря этому пиво имеет легкую горчинку, мягкий солодовый вкус и неповторимый аромат.",
+            "site_name": "hike_premium",
+            "picture_path": "img/bottles/beer-hike.png"
+        },
+        {
+            "index": "13",
+            "name": "Hike premium in can",
+            "name_polish": "Hike premium in can",
+            "abv": "4.8",
+            "plato": "12.5",
+            "description": "Особенности вкуса «Hike Premium» предоставляет использование двух типов солода: ячменного светлого и пшеничной светлого, которые идеально сбалансированы между собой. Именно благодаря этому пиво имеет легкую горчинку, мягкий солодовый вкус и неповторимый аромат.",
+            "site_name": "hike_premium_can",
+            "picture_path": "img/bottles/beer-hike_can.png"
+        },
+        {
+            "index": "14",
+            "name": "Kwas podpiwek",
+            "name_polish": "Kwas podpiwek",
+            "site_name": "kwas_chlebowy",
+            "picture_path": "img/bottles/kwas_chlebowy.png"
+        },
+        {
+            "index": "15",
+            "name": "Kwas chlebowy",
+            "name_polish": "Kwas chlebowy",
+            "site_name": "kwas_podpiwek",
+            "picture_path": "img/bottles/kwas_podpiwek.png"
+        },
+        {
+            "index": "16",
+            "name": "Kwas chlebowy ze sliwa",
+            "name_polish": "Kwas chlebowy ze sliwa",
+            "site_name": "kwas_chlebowy_sliwa",
+            "picture_path": "img/bottles/kwas_sliwa.png"
+        },
+        {
+            "index": "17",
+            "name": "Kwas chlebowy z wishnia",
+            "name_polish": "Kwas chlebowy z wishnia",
+            "site_name": "kwas_chlebowy_wisznia",
+            "picture_path": "img/bottles/kwas_wisznia.png"
+        }
+    ]

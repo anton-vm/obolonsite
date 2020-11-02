@@ -30,12 +30,13 @@
     bottom: 50px;
     color: white;
     z-index: 4;
+    text-shadow: 10px 9px 17px rgba(0,0,0,0.97), 5px -1px 11px rgba(0,0,0,0.79);
 }
 
 .beerBottle {
     /* display: block; */
     position: absolute;
     bottom: -5px;
-    right: -30px;
+    right: 0px;
     z-index: 1;
 }
