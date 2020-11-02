@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7512b44b1b0e37ecb5aa3b66bfc57fc1",
+    "revision": "a61b3500a640c2fab509ae787dc52e23",
     "url": "/obolonsite/index.html"
   },
   {
-    "revision": "c24692db87d312e1348f",
-    "url": "/obolonsite/static/css/main.e1a78fca.chunk.css"
+    "revision": "d67d6af70c4e3f18655b",
+    "url": "/obolonsite/static/css/main.75f4dabd.chunk.css"
   },
   {
-    "revision": "6de60ac7c4da024d3ef7",
-    "url": "/obolonsite/static/js/2.c3d9e17c.chunk.js"
+    "revision": "96a8577ee086b20b316e",
+    "url": "/obolonsite/static/js/2.95d94a76.chunk.js"
   },
   {
     "revision": "0aafbc1a5531a8e877e9c9d001f77b1c",
-    "url": "/obolonsite/static/js/2.c3d9e17c.chunk.js.LICENSE.txt"
+    "url": "/obolonsite/static/js/2.95d94a76.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c24692db87d312e1348f",
-    "url": "/obolonsite/static/js/main.bc9ff865.chunk.js"
+    "revision": "d67d6af70c4e3f18655b",
+    "url": "/obolonsite/static/js/main.ecfd23c3.chunk.js"
   },
   {
     "revision": "62898fedac0d2a1f57ae",
@@ -116,11 +116,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/obolonsite/static/media/listOfProducts.949f99ab.xlsx"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/obolonsite/static/media/logo.5d5d9eef.svg"
+    "revision": "f20718824a68517ec7199abba6d65794",
+    "url": "/obolonsite/static/media/logo-carefour.f2071882.png"
   },
   {
-    "revision": "e38bbe4f38a1906b87a4fa88e8e26ff1",
-    "url": "/obolonsite/static/media/~$listOfProducts.e38bbe4f.xlsx"
+    "revision": "24eadc879ac5af27b812090cefe613de",
+    "url": "/obolonsite/static/media/logo-piotripawel.24eadc87.png"
+  },
+  {
+    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
+    "url": "/obolonsite/static/media/logo.5d5d9eef.svg"
   }
 ]);

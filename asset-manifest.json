@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/obolonsite/static/css/main.e1a78fca.chunk.css",
-    "main.js": "/obolonsite/static/js/main.bc9ff865.chunk.js",
-    "main.js.map": "/obolonsite/static/js/main.bc9ff865.chunk.js.map",
+    "main.css": "/obolonsite/static/css/main.75f4dabd.chunk.css",
+    "main.js": "/obolonsite/static/js/main.ecfd23c3.chunk.js",
+    "main.js.map": "/obolonsite/static/js/main.ecfd23c3.chunk.js.map",
     "runtime-main.js": "/obolonsite/static/js/runtime-main.825100b8.js",
     "runtime-main.js.map": "/obolonsite/static/js/runtime-main.825100b8.js.map",
-    "static/js/2.c3d9e17c.chunk.js": "/obolonsite/static/js/2.c3d9e17c.chunk.js",
-    "static/js/2.c3d9e17c.chunk.js.map": "/obolonsite/static/js/2.c3d9e17c.chunk.js.map",
+    "static/js/2.95d94a76.chunk.js": "/obolonsite/static/js/2.95d94a76.chunk.js",
+    "static/js/2.95d94a76.chunk.js.map": "/obolonsite/static/js/2.95d94a76.chunk.js.map",
     "index.html": "/obolonsite/index.html",
-    "precache-manifest.2e4e1734c399ab12bd47ca880700e45d.js": "/obolonsite/precache-manifest.2e4e1734c399ab12bd47ca880700e45d.js",
+    "precache-manifest.f9a928d039d818ca9bbbaa846a25858a.js": "/obolonsite/precache-manifest.f9a928d039d818ca9bbbaa846a25858a.js",
     "service-worker.js": "/obolonsite/service-worker.js",
-    "static/css/main.e1a78fca.chunk.css.map": "/obolonsite/static/css/main.e1a78fca.chunk.css.map",
-    "static/js/2.c3d9e17c.chunk.js.LICENSE.txt": "/obolonsite/static/js/2.c3d9e17c.chunk.js.LICENSE.txt",
+    "static/css/main.75f4dabd.chunk.css.map": "/obolonsite/static/css/main.75f4dabd.chunk.css.map",
+    "static/js/2.95d94a76.chunk.js.LICENSE.txt": "/obolonsite/static/js/2.95d94a76.chunk.js.LICENSE.txt",
     "static/media/BOOKOS.TTF": "/obolonsite/static/media/BOOKOS.4267d8aa.TTF",
     "static/media/Zhyguli-logo.png": "/obolonsite/static/media/Zhyguli-logo.f077f143.png",
     "static/media/beer-bottle.png": "/obolonsite/static/media/beer-bottle.09352e0b.png",
@@ -35,13 +35,14 @@
     "static/media/kwas_wisznia.png": "/obolonsite/static/media/kwas_wisznia.02f71899.png",
     "static/media/kyiv.png": "/obolonsite/static/media/kyiv.b0f83db3.png",
     "static/media/listOfProducts.xlsx": "/obolonsite/static/media/listOfProducts.949f99ab.xlsx",
-    "static/media/logo.svg": "/obolonsite/static/media/logo.5d5d9eef.svg",
-    "static/media/~$listOfProducts.xlsx": "/obolonsite/static/media/~$listOfProducts.e38bbe4f.xlsx"
+    "static/media/logo-carefour.png": "/obolonsite/static/media/logo-carefour.f2071882.png",
+    "static/media/logo-piotripawel.png": "/obolonsite/static/media/logo-piotripawel.24eadc87.png",
+    "static/media/logo.svg": "/obolonsite/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.825100b8.js",
-    "static/js/2.c3d9e17c.chunk.js",
-    "static/css/main.e1a78fca.chunk.css",
-    "static/js/main.bc9ff865.chunk.js"
+    "static/js/2.95d94a76.chunk.js",
+    "static/css/main.75f4dabd.chunk.css",
+    "static/js/main.ecfd23c3.chunk.js"
   ]
 }
