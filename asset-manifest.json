@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/obolonsite/static/css/main.75f4dabd.chunk.css",
-    "main.js": "/obolonsite/static/js/main.ecfd23c3.chunk.js",
-    "main.js.map": "/obolonsite/static/js/main.ecfd23c3.chunk.js.map",
+    "main.css": "/obolonsite/static/css/main.afa31496.chunk.css",
+    "main.js": "/obolonsite/static/js/main.e52429c3.chunk.js",
+    "main.js.map": "/obolonsite/static/js/main.e52429c3.chunk.js.map",
     "runtime-main.js": "/obolonsite/static/js/runtime-main.825100b8.js",
     "runtime-main.js.map": "/obolonsite/static/js/runtime-main.825100b8.js.map",
     "static/js/2.95d94a76.chunk.js": "/obolonsite/static/js/2.95d94a76.chunk.js",
     "static/js/2.95d94a76.chunk.js.map": "/obolonsite/static/js/2.95d94a76.chunk.js.map",
     "index.html": "/obolonsite/index.html",
-    "precache-manifest.f9a928d039d818ca9bbbaa846a25858a.js": "/obolonsite/precache-manifest.f9a928d039d818ca9bbbaa846a25858a.js",
+    "precache-manifest.c82eee65975014820a08314728fe89de.js": "/obolonsite/precache-manifest.c82eee65975014820a08314728fe89de.js",
     "service-worker.js": "/obolonsite/service-worker.js",
-    "static/css/main.75f4dabd.chunk.css.map": "/obolonsite/static/css/main.75f4dabd.chunk.css.map",
+    "static/css/main.afa31496.chunk.css.map": "/obolonsite/static/css/main.afa31496.chunk.css.map",
     "static/js/2.95d94a76.chunk.js.LICENSE.txt": "/obolonsite/static/js/2.95d94a76.chunk.js.LICENSE.txt",
     "static/media/BOOKOS.TTF": "/obolonsite/static/media/BOOKOS.4267d8aa.TTF",
     "static/media/Zhyguli-logo.png": "/obolonsite/static/media/Zhyguli-logo.f077f143.png",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.825100b8.js",
     "static/js/2.95d94a76.chunk.js",
-    "static/css/main.75f4dabd.chunk.css",
-    "static/js/main.ecfd23c3.chunk.js"
+    "static/css/main.afa31496.chunk.css",
+    "static/js/main.e52429c3.chunk.js"
   ]
 }
