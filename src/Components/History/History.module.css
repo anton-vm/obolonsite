@@ -5,6 +5,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     color: white;
+    padding-top: 50px;
     background: rgb(39,71,34);
 background: linear-gradient(86deg, rgba(39,71,34,1) 49%, rgba(74,153,62,1) 84%, rgba(48,86,42,1) 99%);
 }

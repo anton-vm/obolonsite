@@ -7,14 +7,15 @@ const Obolon = ({productName}) => {
             <div className={"bottles wow zoomIn"} >
                 <div className={"bottle"} onClick={productName}>
                     <img src={require("../../img/bottles/beer_obolon_premium.png")} className={style.img} data-name="obolon_premium"></img>
-                    <div className={"naming"}>Premium</div>
+                    {/* <div className={"naming"}>Premium</div> */}
                 </div >
                 <div className={"bottle"} >
                     <img src={require("../../img/bottles/beer_magnat.png")} className={style.img} data-name="obolon_magnat"/>
-                    <div className={"naming"}>Magnat</div></div>
+                    {/* <div className={"naming"}>Magnat</div> */}
+                    </div>
                 <div className={"bottle"}>
                     <img src={require("../../img/bottles/beer_obolon_svitle.png")} className={style.img} data-name="obolon_svitle"></img>
-                    <div className={"naming"}>Svitle</div>
+                    {/* <div className={"naming"}>Svitle</div> */}
                     </div>
             </div>
             <div className={`${style.description} wow zoomIn`}>

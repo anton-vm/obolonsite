@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 30px;
     background: rgb(39,71,34);
 background: linear-gradient(86deg, rgba(39,71,34,1) 49%, rgba(74,153,62,1) 84%, rgba(48,86,42,1) 99%);
 }
