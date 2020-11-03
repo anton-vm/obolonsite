@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80ff441001ca5295ad8f05d8cfe2bd0b",
+    "revision": "5132f59db12e371c9c201a42581ff995",
     "url": "/obolonsite/index.html"
   },
   {
-    "revision": "6f7a4cb45bdf07ad2571",
+    "revision": "e79b61039162ab808fc6",
     "url": "/obolonsite/static/css/main.1dd802a2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/obolonsite/static/js/2.402934a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f7a4cb45bdf07ad2571",
-    "url": "/obolonsite/static/js/main.5870bc74.chunk.js"
+    "revision": "e79b61039162ab808fc6",
+    "url": "/obolonsite/static/js/main.8a95ca71.chunk.js"
   },
   {
     "revision": "62898fedac0d2a1f57ae",
