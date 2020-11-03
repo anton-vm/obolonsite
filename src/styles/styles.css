@@ -3,6 +3,8 @@
     src: url('./fonts/BOOKOS.TTF') format("truetype");
 }
 
+@import url("../styles/burger.css") screen;
+
 body {
     position: relative;
     margin: 0;
@@ -85,7 +87,7 @@ h2 {
     overflow: auto;
     border-radius: 4px;
     outline: none;
-    padding: 10px;
+    padding: 8px;
 
   }
   
@@ -111,3 +113,5 @@ h2 {
   .ReactModal__Overlay--before-close {
     opacity: 0;
   }
+
+  

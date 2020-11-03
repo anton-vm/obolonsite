@@ -46,8 +46,8 @@ const Hike = () => {
                         <div ><img src={require('../../img/elements/hike-logo.png')}></img></div>
                     </div>  
                     <div className={"bottles"}>
-                        <div className={'bottle wow slideInLeft'}><img src={require('../../img/bottles/beer_hike_blue_can.png')} data-name="hike_blanche"></img></div>
-                        <div className={'bottle wow slideInRight'}><img src={require('../../img/bottles/beer_hike_blue.png')} data-name="hike_blance_can"></img></div>
+                        <div className={'bottle wow slideInLeft'}><img src={require('../../img/bottles/beer_hike_blue_can.png')} data-name="hike_blance_can"></img></div>
+                        <div className={'bottle wow slideInRight'}><img src={require('../../img/bottles/beer_hike_blue.png')} data-name="hike_blanche"></img></div>
                     </div>
                     </div> 
             </div>

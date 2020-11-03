@@ -3,7 +3,7 @@ import style from "./Obolon.module.css"
 
 const Obolon = ({productName}) => {
     return (
-        <div className={style.wrapper} >
+        <div className={style.wrapper} id={"beer"}>
             <div className={"bottles wow zoomIn"} >
                 <div className={"bottle"} onClick={productName}>
                     <img src={require("../../img/bottles/beer_obolon_premium.png")} className={style.img} data-name="obolon_premium"></img>

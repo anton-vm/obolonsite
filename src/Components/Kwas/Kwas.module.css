@@ -1,3 +1,8 @@
+.kwasWrap {
+    width: 100%;
+    padding-top: 30px;
+}
+
 .img {
     width: 100%;
 }
@@ -14,9 +19,9 @@
     /* margin: 0px auto; */
     justify-content: space-around;
     flex-direction: column;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     color: #916101;
-    text-align: center;
+    text-align: center; 
 }
 
 .imgLogo {

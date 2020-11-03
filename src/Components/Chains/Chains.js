@@ -23,11 +23,11 @@ const Chains = () => {
 
 
     return (
-        <div className={style.wrapChain}>
+        <div className={style.wrapChain} id={'toBuy'}>
             <div className={style.title}><h2>Торгові мережі</h2></div>
             <div className={style.logoBlock}>
                 
-                    {logoList.map((el) => <div className={style.logo} ><img src={require(`../../${el}`)} key={el} className={style.logoImg}/> </div>)}
+                    {logoList.map((el) => <div className={`${style.logo} wow zoomIn`} key={el}><img src={require(`../../${el}`)} key={el} className={style.logoImg}/> </div>)}
 
                 
             </div>

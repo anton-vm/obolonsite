@@ -1,7 +1,7 @@
-.overlay {
+.wrapper {
     display: flex;
     width: 100vw;
-    position: fixed;
+    position: relative;
     top: 0;
     align-items: center;
     justify-content: space-between;
@@ -11,9 +11,39 @@
 }
 
 .headElement {
-    display: block;
-    margin: 0 30px;
+    display: flex; 
+    height: 100%;
+    margin: 0 15px;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
 }
+
+.menuBtn {
+    display: flex;
+    height: 100%;
+    /* width: 50px; */
+    flex-direction: column;
+    transition: all 700ms ease;
+}
+
+.menuBtn:hover {
+ flex-direction: row;
+}
+
+.dropDown {
+    display: flex;
+    height: 100%;
+    justify-content: right;
+    /* width: 50px; */
+}
+
+.dropDown:hover  .menu {
+    visibility: visible;
+    display: block;
+}
+
+
 
 .row {
     display: block;
@@ -24,3 +54,66 @@
     background-color: white;
     margin: 2px;
 }
+
+.menu {
+    visibility: hidden;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 240px;
+    background: #31582b;
+    /* background: linear-gradient(86deg, rgba(39,71,34,1) 49%, rgba(74,153,62,1) 84%, rgba(48,86,42,1) 99%); */
+    top: 50px;
+    right: 0;
+    /* transform: translate(-50%, 0%);   */
+}
+
+.listMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 6px auto 30px;
+}
+
+.itemMenu {
+    margin: 15px auto;
+    font-size: 16px;
+    font-family: "Bookman";
+    color: white;
+    cursor: pointer;
+}
+
+.itemMenu:active .menu  {
+    /* text-decoration: underline;
+    visibility: hidden;
+    display: none; */
+}
+
+.menuLink {
+    text-decoration: none;
+    color: white;
+    font-family: "Bookman";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.menuLink:hover {
+   text-decoration: underline;
+}
+
+.itemLine {
+    display: block;
+    content: none;
+    width: 160px;
+    height: 1px;
+    background-color: white;
+}
+
+
+
+

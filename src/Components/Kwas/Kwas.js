@@ -2,9 +2,9 @@ import React from 'react';
 import style from "./Kwas.module.css"
 
 const Kwas = () => {
-    return (
-        <div>
-            <div className={`${style.title} wow zoomIn`}>
+    return ( 
+        <div id={"kvas"} className={style.kwasWrap}>
+            <div className={`${style.title} wow zoomIn`} id={"kvas"}>
             <div><img src={require('../../img/elements/obolon_logo_red.png')} className={style.imgLogo}></img></div>
                 <h2 className={style.kwasTitle}>Kwas chelbowy</h2>
             </div>

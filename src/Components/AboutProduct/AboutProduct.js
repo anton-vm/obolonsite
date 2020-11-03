@@ -10,9 +10,9 @@ const AboutProduct = ({ toggleProductWindow, product }) => {
     <>
       <div className={style.window}>
         <div className={style.titleName}>
-          <h2 >{productInfo.name_polish}</h2>
+          <h2 className={style.titleText}>{productInfo.name_polish}</h2>
         </div>
-        <div className={style.picture}>
+        <div className={`${style.picture} wow zoomIn`}>
           <img
             src={require(`../../${productInfo.picture_path}`)}
             className={"zoomIn"}
@@ -20,18 +20,20 @@ const AboutProduct = ({ toggleProductWindow, product }) => {
           />
         </div>
         <div className={style.beerInfo}>
+        {productInfo.abv &&
         <div className={style.characteristics}>
+            
         <div className={style.beerConsist}> 
         <div className={style.beerConsist_data}>{productInfo.abv} %</div>
-            <div className={style.beerConsist_tittle}>Вміст алкоголю:</div> 
-        </div>
+            <div className={style.beerConsist_tittle}>Алкоголь</div> 
+            </div> 
 
         <div className={style.beerConsist}> 
         <div className={style.beerConsist_data}>{productInfo.plato} %</div>
-            <div className={style.beerConsist_tittle}>Вміст сухих речовин:</div> 
+            <div className={style.beerConsist_tittle}>Сухі речовини</div> 
         </div>
 
-        </div>
+        </div> }
 
         <div className={style.description}>{productInfo.description}</div>
         </div>

@@ -3,7 +3,7 @@ import style from "./Title.module.css"
 
 const Titel = () => {
     return (
-        <div className={style.block}>
+        <div className={style.block} id={'top'}>
             <div className={style.bgdImage}>
             
                 <div className={style.logo}><img src={require('../../img/elements/obolon-full.png')}/></div>

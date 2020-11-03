@@ -16,6 +16,7 @@ import AboutProduct from "./Components/AboutProduct/AboutProduct"
 import WOW from 'wowjs'
 import {CSSTransition} from 'react-transition-group'
 import Modal from "react-modal";
+import scrollIntoView from 'scroll-into-view-if-needed'
 
 Modal.setAppElement("#root");
 
@@ -31,6 +32,7 @@ function App() {
   const [openProduct, setOpenProduct] = useState(false)
   const [product, setProduct] = useState('')
 
+
   const toggleProductWindow = () => {
     const open = !openProduct
     setOpenProduct(open)
@@ -39,26 +41,31 @@ function App() {
   const productName = (e) => {
     e.preventDefault()
     const beer = e.target.dataset.name
-    console.log(beer)
+    
     if (beer !== undefined) {
     setProduct(beer)
     toggleProductWindow()
     }
     else return
   }
+
+  const scroll = (e) => {
+    const id = e.target.dataset.id
+    if (id !== undefined) {
+      const node = document.getElementById(id)
+      scrollIntoView(node, { behavior: 'smooth', block: 'start', scrollMode: 'if-needed' })
+    }
+    else return
+  }
+
+  const listenClick = (e) => {
+    productName (e);
+    scroll(e)
+  }
   
   return (
     <>
-    {/* {openProduct && 
-    <CSSTransition
-    in={openProduct}
-    className="alert"
-    timeout={{ enter: 500 }}
 
-    >
-    <AboutProduct toggleProductWindow={toggleProductWindow} product={product} className={"alert"}/>
-    </CSSTransition> 
-    } */}
 
  <Modal
         isOpen={openProduct}
@@ -71,7 +78,7 @@ function App() {
         <AboutProduct toggleProductWindow={toggleProductWindow} product={product} className={"alert"}/>
       </Modal>
 
-    <div onClick={productName}>
+    <div onClick={listenClick} >
     <Header/>
     <Title/>
     <Range/>
