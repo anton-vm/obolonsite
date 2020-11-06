@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/obolonsite/static/css/main.1dd802a2.chunk.css",
-    "main.js": "/obolonsite/static/js/main.8a95ca71.chunk.js",
-    "main.js.map": "/obolonsite/static/js/main.8a95ca71.chunk.js.map",
+    "main.css": "/obolonsite/static/css/main.f7c0c6d6.chunk.css",
+    "main.js": "/obolonsite/static/js/main.d3e3b62d.chunk.js",
+    "main.js.map": "/obolonsite/static/js/main.d3e3b62d.chunk.js.map",
     "runtime-main.js": "/obolonsite/static/js/runtime-main.825100b8.js",
     "runtime-main.js.map": "/obolonsite/static/js/runtime-main.825100b8.js.map",
-    "static/js/2.402934a4.chunk.js": "/obolonsite/static/js/2.402934a4.chunk.js",
-    "static/js/2.402934a4.chunk.js.map": "/obolonsite/static/js/2.402934a4.chunk.js.map",
+    "static/js/2.b4c59407.chunk.js": "/obolonsite/static/js/2.b4c59407.chunk.js",
+    "static/js/2.b4c59407.chunk.js.map": "/obolonsite/static/js/2.b4c59407.chunk.js.map",
     "index.html": "/obolonsite/index.html",
-    "precache-manifest.cae90f3dd64d798c1259b4221d9cfecd.js": "/obolonsite/precache-manifest.cae90f3dd64d798c1259b4221d9cfecd.js",
+    "precache-manifest.a83264cb8c69742dcb6a5c92d1b34364.js": "/obolonsite/precache-manifest.a83264cb8c69742dcb6a5c92d1b34364.js",
     "service-worker.js": "/obolonsite/service-worker.js",
-    "static/css/main.1dd802a2.chunk.css.map": "/obolonsite/static/css/main.1dd802a2.chunk.css.map",
-    "static/js/2.402934a4.chunk.js.LICENSE.txt": "/obolonsite/static/js/2.402934a4.chunk.js.LICENSE.txt",
+    "static/css/main.f7c0c6d6.chunk.css.map": "/obolonsite/static/css/main.f7c0c6d6.chunk.css.map",
+    "static/js/2.b4c59407.chunk.js.LICENSE.txt": "/obolonsite/static/js/2.b4c59407.chunk.js.LICENSE.txt",
     "static/media/BOOKOS.TTF": "/obolonsite/static/media/BOOKOS.4267d8aa.TTF",
     "static/media/Zhyguli-logo.png": "/obolonsite/static/media/Zhyguli-logo.f077f143.png",
     "static/media/beer-bottle.png": "/obolonsite/static/media/beer-bottle.09352e0b.png",
@@ -37,12 +37,13 @@
     "static/media/listOfProducts.xlsx": "/obolonsite/static/media/listOfProducts.949f99ab.xlsx",
     "static/media/logo-carefour.png": "/obolonsite/static/media/logo-carefour.f2071882.png",
     "static/media/logo-piotripawel.png": "/obolonsite/static/media/logo-piotripawel.24eadc87.png",
-    "static/media/logo.svg": "/obolonsite/static/media/logo.5d5d9eef.svg"
+    "static/media/logo.svg": "/obolonsite/static/media/logo.5d5d9eef.svg",
+    "static/media/obolon-logo-vert.png": "/obolonsite/static/media/obolon-logo-vert.529e9ed1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.825100b8.js",
-    "static/js/2.402934a4.chunk.js",
-    "static/css/main.1dd802a2.chunk.css",
-    "static/js/main.8a95ca71.chunk.js"
+    "static/js/2.b4c59407.chunk.js",
+    "static/css/main.f7c0c6d6.chunk.css",
+    "static/js/main.d3e3b62d.chunk.js"
   ]
 }
