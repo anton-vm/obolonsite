@@ -4,11 +4,13 @@
     justify-content: space-around;
     flex-direction: column;
     width: 100%;
-    /* height: 100%; */
-    overflow: scroll;
+    /* height: 100%;  */
+    /* overflow: scroll; */
     align-items: center;
 background: linear-gradient(86deg, rgba(39,71,34,1) 49%, rgba(74,153,62,1) 84%, rgba(48,86,42,1) 99%);
 }
+
+
 
 
 
@@ -35,6 +37,7 @@ background: linear-gradient(86deg, rgba(39,71,34,1) 49%, rgba(74,153,62,1) 84%, 
     color: white;
     font-weight: 700;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 .close:hover {
@@ -105,4 +108,50 @@ background: linear-gradient(86deg, rgba(39,71,34,1) 49%, rgba(74,153,62,1) 84%, 
     width: 90%;
     text-align: center;
     align-items: center;
+}
+
+.titleNameHorisont {
+    display: none;
+}
+
+/* _______________ */
+
+@media screen and (min-width: 480px) {
+    .titleName {
+        display: none;
+    }
+
+    .window {
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        /* justify-content: space-around; */
+
+    }
+
+    .titleNameHorisont {
+        display: block;
+        text-align: start;
+        color: white;
+    }
+
+    .picture {
+        display: flex;
+        justify-content: space-around;
+        width: 20%;
+        margin-left: 10%;
+    }
+
+    .infoBlock {
+        display: flex;   
+        flex-direction: column;     
+        width: 50%;
+        margin-right: 10%;
+    }
+
+ 
+
+
+
+
 }

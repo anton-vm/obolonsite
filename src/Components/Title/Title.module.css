@@ -1,9 +1,9 @@
 .block {
-    /* display: block; */
+    display: block;
 
     justify-content: center;
     position: relative;
-    height: 568px;
+    /* height: 568px; */
     background-color: #31582b;
 }
 
@@ -17,13 +17,49 @@
     background-position-x: center;
 }
 .logo {
-    margin: 102px auto 0;
+    display: block;
+    width: 66%;
+    margin: 20% 17%;
     z-index: 2;
+}
+
+.logoImg {
+    width: 100%;
+}
+
+.horisontal {
+    display: none;
+    width: 45%;
+    flex-direction: column;
+    margin: 60px 9% 0;
+    z-index: 2;
+}
+
+.logoVert {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+.logoVertImg {
+    width: 100%;
+   
+}
+
+.sloganHorisont {
+    display: block;
+    margin: 0;
+    /* font-size: 295%; */
+    line-height: 40px;
+    color: white;
+    font-weight: 900;
+    text-shadow: 10px 9px 17px rgba(0,0,0,0.97), 5px -1px 11px rgba(0,0,0,0.79);
 }
 
 .slogan {
     display: block;
     position: absolute;
+    font-size: 36px;
     width: 70%;
     margin: 260px 15px 50px;
     left: 15px;
@@ -39,4 +75,73 @@
     bottom: -5px;
     right: 0px;
     z-index: 1;
+}
+
+.menu {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    z-index: 4;
+}
+
+.horisontMenu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 40px;
+    height: 60px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.listMenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+.itemMenu {
+    color: white;
+    font-size: 18px;
+    font-family: "Bookman";
+    margin: auto 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.itemMenu:hover {
+    opacity: 0.7;
+}
+
+/* ___________ */
+
+@media screen and (min-width: 480px) {
+    .logo {
+        display: none;
+    }
+    
+    .horisontal {
+        display: flex;
+    }
+
+    .slogan {
+        display: none
+    }
+}
+
+@media screen and (min-width: 768px)  {
+    .menu {
+        display: none;
+    }
+    .horisontMenu {
+        display: flex;
+    }
 }

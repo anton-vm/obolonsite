@@ -1,4 +1,4 @@
-.orange {
+.orange { 
     display: block;
     position: absolute;
     background-color: #ff7e2b;
@@ -28,13 +28,117 @@
 }
 
 .groupProducts {
-    /* position: absolute;
-    left: 0;
-    top: 0; */
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 0 auto;
     width: 100%;
+}
+
+.logoHike {
+    display: none;
+}
+
+.bottlesHike {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.slogan {
+    display: none;
+}
+
+.logoHikeLeft {
+    display: none;
+}
+
+.logoHikePC {
+    display: none;
+} 
+
+
+
+@media screen and (min-width: 480px) {
+
+    .groupProducts {
+        flex-direction: row;
+    }
+
+    .bottlesHike {
+        display: block;
+        width: 50%;
+    }
+
+    .logoHike {
+        display: block;
+        position: absolute;
+        z-index: 3;
+        width: 175px;
+        left: 50%;
+        transform: translate(-50%, 15%);
+        /* top: 30px; */
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logoImg {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 830px) {
+
+    .productBlock {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .logoHikePC {
+        display: block;        
+        width: 25%;
+        padding: 40px 0px 0 50px ;
+    }
+
+    .logoHike  {
+        display: none;
+    }
+
+    .logoImg {
+        width: 150px;
+    }
+
+    .groupProducts {
+        flex-direction: row;
+        width: 40%;
+    }
+
+    .slogan {
+        display: flex;
+        justify-content: flex-end;
+        width: 25%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        color: white;
+        text-align: end;
+        padding: 0 50px 40px 0;
+        align-items: flex-end;
+        font-size: 26px;
+        line-height: 22px;
+    }
+
+    .logoHikeLeft {
+        display: flex;
+        justify-content: left;
+        width: 25%;
+    }
+
+
 }

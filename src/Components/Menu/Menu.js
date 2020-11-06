@@ -1,11 +1,7 @@
 import React, {useState} from 'react';
-import style from './Header.module.css'
-// import Burger from "../../Elements/Burger/Burger"
+import style from './Menu.module.css'
 
-
-
-
-const Header = () => {
+const Menu = () => {
 
     const [openMenu, setOpenMenu] = useState(false)
 
@@ -13,12 +9,9 @@ const Header = () => {
         setOpenMenu(!openMenu)
     }
 
-
     return (
-        <header className={`${style.wrapper} `} >
-            <div className={`${style.headElement}`} data-id={"top"}><img src={require("../../img/elements/obolon-logo-vert-small.png")} data-id={"top"}/></div>
-            <div className={style.headElement}>
-            <div className={style.dropDown}>
+        <div>
+                <div className={style.dropDown}>
                 <div className={style.menuBtn} onClick={opener}>
                 <div className={style.row}></div>
                 <div className={style.row}></div>
@@ -41,25 +34,12 @@ const Header = () => {
                     <li className={style.itemMenu} data-id={"toBuy"} onClick={opener}>Де купити</li>
                     <div className={style.itemLine}></div>
                 </ul>
-                </div>          
-                }
                 </div>
-
-                <nav className={style.horisontMenu}>
-                    <ul className={style.listMenuH}>
-                    <li className={style.itemMenuH} data-id={"top"}>Догори</li>
-                    <li className={style.itemMenuH} data-id={'beer'}>Пиво</li>
-                    <li className={style.itemMenuH} data-id={"kvas"}>Квас</li>
-                    <li className={style.itemMenuH} data-id={"history"}>Історія</li>
-                    <li className={style.itemMenuH} data-id={"toBuy"}>Де купити</li>
-                    </ul>
-                </nav>
-
-            
+                }
             </div>
-           
-        </header> 
+            
+        </div>
     );
 };
- 
-export default Header;
+
+export default Menu;

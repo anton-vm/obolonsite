@@ -1,4 +1,7 @@
 .kwasWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     padding-top: 70px;
 }
@@ -7,7 +10,7 @@
     width: 100%;
 }
 
-.text {
+.text { 
     color: #916101;
     text-align: center;
     width: 90%;
@@ -22,6 +25,7 @@
     /* margin-top: 40px; */
     color: #916101;
     text-align: center; 
+    width: 700;
 }
 
 .imgLogo {
@@ -30,4 +34,60 @@
 
 .kwasTitle {
     margin: 0 auto;
+}
+
+.groupeKwas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textPad {
+    display: none;
+}
+
+.textWrap {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* _______________ */
+
+@media screen and (min-width: 480px) {
+
+    .kwasWrap {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .groupeKwas {
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .textPad {
+        display: block;
+        width: 85%;
+        text-align: center;
+        color: #916101;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    .kwasWrap {
+        margin: 0 auto;
+        width: 85%;
+        flex-direction: row-reverse;
+        padding-top: 0;
+    }
 }

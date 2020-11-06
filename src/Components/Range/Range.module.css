@@ -6,8 +6,23 @@
 
 }
 
+.smallWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
 .header {
-    width: 290px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
     text-align: center;
     color: #a06b00;
     margin-top: 45px;
@@ -20,7 +35,7 @@
 
 .textRange {
     display: block;
-    margin: 40px 15px 0;
+    margin: 40px 0px 0;
     color: #a06b00;
     font-weight: 900;
     text-align: center;
@@ -35,3 +50,49 @@
     background-position-y: bottom;
 }
 
+.textHorisont {
+    display: none;
+    text-align: center;
+    color: #a06b00;
+    font-weight: 700;
+    margin: 0 0 0;
+}
+
+
+/* ____________ */
+
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        flex-direction: row;
+    }
+    
+    .smallWrapper {
+        flex-direction: row;
+        margin: 40px auto 20px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .textWrapper {
+        width: 40%;
+    }
+
+    .img {
+        width: 40%;
+        margin: 0;
+    }
+
+    .textHorisont {
+        display: block;
+        width: 100%;
+    }
+
+    .textRange {
+        margin: 10px;
+    }
+}

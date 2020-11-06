@@ -1,6 +1,6 @@
 .wrapper {
     display: flex;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     top: 0;
     align-items: center;
@@ -117,56 +117,7 @@
     background-color: white;
 }
 
-.horisontMenu {
-    display: none;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    right: 40px;
-    height: 100%;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.listMenuH {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    width: 90%;
-    height: 100%;
-    align-items: center;
-    justify-content: flex-end;
-    width: 70%;
-}
-
-.itemMenuH {
-    color: white;
-    font-size: 18px;
-    font-family: "Bookman";
-    margin: auto 15px;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-.itemMenuH:hover {
-      opacity: 0.7;
-}
 
 
-@media screen and (min-width: 768px)  {
-    .dropDown {
-        display: none;
-    }
-    .horisontMenu {
-        display: flex;
-        width: ;
-    }
-}
 
-@media screen and (min-width: 1150px) {
-    .wrapper {
-        width: 1150px;
-    }
 
-}

@@ -21,13 +21,13 @@ p {
 h1 {
     font-family: Bookman;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 h2 {
     font-family: Bookman;
     font-size: 26px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 
@@ -35,7 +35,7 @@ h2 {
 .bottles {
     display: flex;
     position: relative;
-    margin: 20px 15px 40px;
+    margin: 20px 0px 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -114,6 +114,27 @@ h2 {
   
   .ReactModal__Overlay--before-close {
     opacity: 0;
+  }
+
+
+  /* _____________ */
+
+  @media screen and (min-width: 480px) {
+    .bottles {
+      width: 100%;
+    }
+
+    .productDescription {
+      height: 75%;
+    }
+  }
+
+  @media screen and (min-width: 1150px) {
+    .mainContainer {
+      display: block;
+      width: 1150px;
+      margin: 0 auto;
+    }
   }
 
   

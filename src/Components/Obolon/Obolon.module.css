@@ -1,13 +1,15 @@
 .wrapper {
     display: flex;
+    width: 100%;
     align-items: center;
-    flex-wrap: wrap;
-    padding-top: 30px;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    padding: 30px 0;
     background: rgb(39,71,34);
 background: linear-gradient(86deg, rgba(39,71,34,1) 49%, rgba(74,153,62,1) 84%, rgba(48,86,42,1) 99%);
 }
 
-.bottles {
+.bottles { 
     display: flex; 
     position: relative;
     margin: 40px 15px;
@@ -56,4 +58,98 @@ background: linear-gradient(86deg, rgba(39,71,34,1) 49%, rgba(74,153,62,1) 84%, 
 .text {
     text-align: center;
     color: white;
+}
+
+
+
+.descriptionHorisont {
+    display: none;
+}
+
+.bottleGroupe {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.beerGroupe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ________________________ */
+
+@media screen and (min-width: 480px) {
+
+    .description {
+        display: none;
+    }
+
+    .descriptionHorisont {
+        display: flex;
+        margin: 0px 15px;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 829px) {
+
+    .bottleGroupe {
+        width: 80%;
+    }
+
+    .descriptionHorisont {
+        width: 90%;
+    }
+
+    .beerGroupe {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .obolonWrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 830px) {
+    .obolonWrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .descriptionHorisont {
+        display: flex;
+        width: 35%;
+        /* align-items: flex-start; */
+        /* justify-content: flex-start; */
+        padding-top: 50px;
+    }
+    .beerGroupe {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        width: 55%;
+    }
+    .bottleGroupe {
+        width: 100%;
+    }
+
+    .text {
+        text-align: left;
+        /* font-weight: 700; */
+    }
+
+    .logo {
+        display: block;
+        margin: 0px 0 20px;
+    }
+
 }
