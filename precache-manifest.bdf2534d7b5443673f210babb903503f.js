@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec6b4780928f9364b18b5554e7b8124c",
+    "revision": "0f1c2ff1b1cff4573375cabb790dfcb9",
     "url": "/obolonsite/index.html"
   },
   {
-    "revision": "8f8a3181d024decb0e07",
-    "url": "/obolonsite/static/css/main.f7c0c6d6.chunk.css"
+    "revision": "b424e69279cb55248f12",
+    "url": "/obolonsite/static/css/main.2012ce5b.chunk.css"
   },
   {
-    "revision": "c0fc212e2839b6b89ece",
-    "url": "/obolonsite/static/js/2.b4c59407.chunk.js"
+    "revision": "1fb3020e368792fb7684",
+    "url": "/obolonsite/static/js/2.72a404ac.chunk.js"
   },
   {
     "revision": "0aafbc1a5531a8e877e9c9d001f77b1c",
-    "url": "/obolonsite/static/js/2.b4c59407.chunk.js.LICENSE.txt"
+    "url": "/obolonsite/static/js/2.72a404ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8f8a3181d024decb0e07",
-    "url": "/obolonsite/static/js/main.2e9ddc2b.chunk.js"
+    "revision": "b424e69279cb55248f12",
+    "url": "/obolonsite/static/js/main.9ad0b079.chunk.js"
   },
   {
     "revision": "62898fedac0d2a1f57ae",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/obolonsite/static/media/beer_hike_blue.05874928.png"
   },
   {
-    "revision": "4623b369ab376f56ccdc886a23c581b9",
-    "url": "/obolonsite/static/media/beer_magnat.4623b369.png"
+    "revision": "ad5362165770d3e8373b56ee9472bf21",
+    "url": "/obolonsite/static/media/beer_magnat.ad536216.png"
   },
   {
     "revision": "311f3ed389ff3250c3b7f55ac8a5a33f",
@@ -56,20 +56,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/obolonsite/static/media/beer_obolon_svitle.22e87f47.png"
   },
   {
-    "revision": "23848551f541ef88c012f6b3061fbb94",
-    "url": "/obolonsite/static/media/beer_obolon_velvet.23848551.png"
+    "revision": "cee5c4361ce62609e597a7d4faf7114e",
+    "url": "/obolonsite/static/media/beer_obolon_velvet.cee5c436.png"
   },
   {
-    "revision": "fed0a2564f334047d28f4db7512ab22b",
-    "url": "/obolonsite/static/media/beer_obolon_wheat.fed0a256.png"
+    "revision": "41224766aa55579b7701dd96861fdabb",
+    "url": "/obolonsite/static/media/beer_obolon_wheat.41224766.png"
   },
   {
-    "revision": "0cbec622bea6f76d415705618a8021ce",
-    "url": "/obolonsite/static/media/beer_obolon_white.0cbec622.png"
+    "revision": "cfa73e1164d65b603c3a0846a05328fb",
+    "url": "/obolonsite/static/media/beer_obolon_white.cfa73e11.png"
   },
   {
-    "revision": "dd77110e5f662eda31e1ea010e6ba3c1",
-    "url": "/obolonsite/static/media/beer_range.dd77110e.png"
+    "revision": "7785fd27d291268b87dba0994b4437b8",
+    "url": "/obolonsite/static/media/beer_range.7785fd27.png"
   },
   {
     "revision": "910170a261edb9eddc322d990555be25",
@@ -88,8 +88,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/obolonsite/static/media/bookmanoldstyle.02cf242d.zip"
   },
   {
+    "revision": "2445fe7af0e810e919d10f3ac05cab6f",
+    "url": "/obolonsite/static/media/facebook_icon.2445fe7a.svg"
+  },
+  {
     "revision": "9518d44a6e6653dafa3e7dad1618023c",
     "url": "/obolonsite/static/media/factory.9518d44a.png"
+  },
+  {
+    "revision": "4c7ce1b03d039e985ccc196099fde994",
+    "url": "/obolonsite/static/media/insta_icon.4c7ce1b0.svg"
   },
   {
     "revision": "84da95b4270a580f262361a54e2f745e",
