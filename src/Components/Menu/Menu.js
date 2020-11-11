@@ -33,6 +33,8 @@ const Menu = () => {
                     <div className={style.itemLine}></div>
                     <li className={style.itemMenu} data-id={"toBuy"} onClick={opener}>Де купити</li>
                     <div className={style.itemLine}></div>
+                    <div className={style.itemLine}></div>
+                    <li className={style.itemMenu}><a href={'https://www.facebook.com/obolon.poland'}><img src={require('../../img/elements/facebook_icon.svg')} className={style.facebook}/></a></li>
                 </ul>
                 </div>
                 }

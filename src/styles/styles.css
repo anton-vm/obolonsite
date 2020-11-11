@@ -129,6 +129,13 @@ h2 {
     }
   }
 
+  @media screen and (min-width: 768px) {
+    .productDescription {
+      width: 650px;
+      height: 450px;
+    }
+    }
+
   @media screen and (min-width: 1150px) {
     .mainContainer {
       display: block;

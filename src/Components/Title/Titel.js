@@ -36,6 +36,7 @@ const Titel = ({screenHeight}) => {
                     <li className={style.itemMenu} data-id={"kvas"}>Квас</li>
                     <li className={style.itemMenu} data-id={"history"}>Історія</li>
                     <li className={style.itemMenu} data-id={"toBuy"}>Де купити</li>
+                    <li><a href={'https://www.facebook.com/obolon.poland'}><img src={require('../../img/elements/facebook_icon.svg')} className={style.facebook}/></a></li>
                 </ul>
                     </nav> 
 
@@ -43,7 +44,7 @@ const Titel = ({screenHeight}) => {
                 <div className={style.logo}><img src={require('../../img/elements/obolon-full.png')} className={style.logoImg}/></div>
                 <div className={style.horisontal}>
                 <div className={style.logoVert}> <img src={require('../../img/elements/obolon-logo-vert.png')} className={style.logoVertImg}/></div>
-                <h1 className={style.sloganHorisont} style={{fontSize: `${size}%`}}>Pierwsze piwo Ukrainy</h1> 
+                <h1 className={style.sloganHorisont}>Pierwsze piwo Ukrainy</h1> 
                 </div>
                 <h1 className={style.slogan}>Pierwsze piwo Ukrainy</h1> 
                 <div className={style.beerBottle}><img src={require('../../img/elements/beer-bottle.png')}/></div>

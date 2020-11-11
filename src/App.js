@@ -13,6 +13,7 @@ import History from "./Components/History/History";
 import Chains from "./Components/Chains/Chains";
 import Footer from "./Components/Footer/Footer";
 import AboutProduct from "./Components/AboutProduct/AboutProduct";
+import Adult from './Components/Adult/Adult'
 import WOW from "wowjs";
 import { CSSTransition } from "react-transition-group";
 import Modal from "react-modal";
@@ -33,7 +34,7 @@ function App() {
     whereToScroll()
     window.addEventListener("scroll", _debounce(possitio, 50));
     if (window.screen.width < 430) {
-      setScreenHeight(window.screen.height);
+      setScreenHeight(document.documentElement.clientHeight);
     } else {
       setScreenHeight(500);
     }
@@ -44,11 +45,17 @@ function App() {
   const [possitionY, setPossitoinY] = useState(false);
   const [screenHeight, setScreenHeight] = useState(0);
   const [blockPossition, setBlockPossition] = useState ("start")
+  const [adultAnswer, setAdultAnswer] =useState(true)
 
   const toggleProductWindow = () => {
     const open = !openProduct;
     setOpenProduct(open);
   };
+ 
+   const toggleAdultWindow = () => {
+     setAdultAnswer(!adultAnswer)     
+   }
+
 
   const productName = (e) => {
     e.preventDefault();
@@ -97,6 +104,26 @@ function App() {
   return (
     <>
       <div className={'mainContainer'}>
+
+      
+      <Modal
+          isOpen={adultAnswer}
+          // onRequestClose={toggleAdultWindow}
+          contentLabel="My dialog"
+          className="productDescription"
+          overlayClassName="productOverlay"
+          closeTimeoutMS={500}
+        >
+          <Adult
+            toggleAdultWindow={toggleAdultWindow}
+            // product={product}
+            className={"alert"}
+          />
+        </Modal>
+      
+
+
+
         <Modal
           isOpen={openProduct}
           onRequestClose={toggleProductWindow}

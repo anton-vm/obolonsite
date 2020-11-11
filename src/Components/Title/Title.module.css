@@ -29,9 +29,9 @@
 
 .horisontal {
     display: none;
-    width: 45%;
+    width: 400px;
     flex-direction: column;
-    margin: 60px 9% 0;
+    margin: 100px 9% 0;
     z-index: 2;
 }
 
@@ -48,11 +48,11 @@
 
 .sloganHorisont {
     display: block;
-    margin: 0;
-    /* font-size: 295%; */
+    margin: -10px 0 0 0 ;
+    font-size: 220%;
     line-height: 40px;
     color: white;
-    font-weight: 900;
+    font-weight: 700;
     text-shadow: 10px 9px 17px rgba(0,0,0,0.97), 5px -1px 11px rgba(0,0,0,0.79);
 }
 
@@ -119,6 +119,12 @@
 
 .itemMenu:hover {
     opacity: 0.7;
+}
+
+.facebook {
+
+    height: 20px;
+    margin-left: 30px;
 }
 
 /* ___________ */
